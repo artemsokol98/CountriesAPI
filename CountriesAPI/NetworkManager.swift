@@ -13,8 +13,7 @@ class NetworkManager {
     static let shared = NetworkManager()
     
     private let headersForAlamofire: HTTPHeaders = [
-        "x-rapidapi-key": "6c278685d3msh170c36a4f200eefp184a3ajsnae24b607ef29",
-        "x-rapidapi-host": "countries-cities.p.rapidapi.com"
+        //insert your headers from rapidAPI (Countries Cities API Documentation)
     ]
     
     func fetchAlamofireCountryList(countryAPI: String, _ completion: @escaping ([Dictionary<String, String>.Element]) -> Void) {
