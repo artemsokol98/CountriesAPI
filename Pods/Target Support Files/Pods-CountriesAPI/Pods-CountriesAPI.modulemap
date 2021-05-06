@@ -1,0 +1,6 @@
+framework module Pods_CountriesAPI {
+  umbrella header "Pods-CountriesAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}
